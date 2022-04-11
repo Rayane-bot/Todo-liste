@@ -3,7 +3,7 @@
     <div class="task">
       <!-- title -->
       <div class="title">
-        <h1> To Do List</h1>
+        <h1> Todo Liste</h1>
       </div>
       <!-- form -->
       <div class="form">
@@ -15,7 +15,7 @@
         />
         <button @click="addTask"><i class="fas fa-plus"></i></button>
       </div>
-      <!-- task lists -->
+      <!-- listes -->
       <div class="taskItems">
         <ul>
           <task-item
@@ -32,7 +32,7 @@
         <button @click="clearCompleted">Actualiser la liste !</button>
         <button @click="clearAll">Retirer tout !</button>
       </div>
-      <!-- pending task -->
+      <!-- pending -->
       <div class="pendingTasks">
         <span>Listes restante: {{ incomplete }}</span>
       </div>
